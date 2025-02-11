@@ -1,0 +1,2 @@
+time_source_destroy(time_source_dashCooldDown)
+time_source_destroy(time_source_staminaDepletedCooldown)
