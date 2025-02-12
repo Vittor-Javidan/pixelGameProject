@@ -10,8 +10,8 @@ if (horizontalInput != 0 or verticalInput != 0) {
 		x += lengthdir_x(value_per_second(dashSpeed), playerDirection)
 		y += lengthdir_y(value_per_second(dashSpeed), playerDirection)
 	} else {
-		x += lengthdir_x(value_per_second(playerSpeed), playerDirection)
-		y += lengthdir_y(value_per_second(playerSpeed), playerDirection)
+		x += lengthdir_x(value_per_second(movementSpeed), playerDirection)
+		y += lengthdir_y(value_per_second(movementSpeed), playerDirection)
 	}
 
 }

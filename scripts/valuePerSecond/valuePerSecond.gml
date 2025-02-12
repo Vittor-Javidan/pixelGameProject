@@ -1,3 +1,7 @@
 function value_per_second(value){
-	return value / fps
+	if (fps > 0) {
+		return value / fps
+	} else {
+		return 0
+	}
 }
