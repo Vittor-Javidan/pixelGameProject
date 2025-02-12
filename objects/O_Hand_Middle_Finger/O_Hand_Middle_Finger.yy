@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_Punch",
+  "%Name":"O_Hand_Middle_Finger",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Enemie","path":"objects/O_Enemie/O_Enemie.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Punch",
+  "name":"O_Hand_Middle_Finger",
   "overriddenProperties":[],
   "parent":{
     "name":"Projectiles",
@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Punch",
-    "path":"sprites/S_Punch/S_Punch.yy",
+    "name":"S_Hand_Middle_Finger",
+    "path":"sprites/S_Hand_Middle_Finger/S_Hand_Middle_Finger.yy",
   },
   "spriteMaskId":null,
   "visible":true,

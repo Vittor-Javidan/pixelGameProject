@@ -19,12 +19,3 @@ if (horizontalInput != 0 or verticalInput != 0) {
 if (stamina < maxStamina and !staminaDepleted) {
 	stamina += value_per_second(25)
 }
-
-// Aim
-aimDirection = point_direction(x, y, mouse_x, mouse_y)
-isShooting = mouse_check_button_pressed(mb_left)
-if (isShooting) {
-	var bulletInstance = instance_create_depth(x, y, depth, O_Punch)
-	bulletInstance.projectileDirection = aimDirection
-	bulletInstance.image_angle = aimDirection
-}
