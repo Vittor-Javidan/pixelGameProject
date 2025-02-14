@@ -28,8 +28,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"cameraWidth","filters":[],"listItems":[],"multiselect":false,"name":"cameraWidth","rangeEnabled":false,"rangeMax":2560.0,"rangeMin":640.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1280","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"cameraHeight","filters":[],"listItems":[],"multiselect":false,"name":"cameraHeight","rangeEnabled":false,"rangeMax":1440.0,"rangeMin":480.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"720","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"cameraWidth","filters":[],"listItems":[],"multiselect":false,"name":"cameraWidth","rangeEnabled":false,"rangeMax":2560.0,"rangeMin":640.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1920","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"cameraHeight","filters":[],"listItems":[],"multiselect":false,"name":"cameraHeight","rangeEnabled":false,"rangeMax":1440.0,"rangeMin":480.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1080","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"cameraFollow","filters":[],"listItems":[],"multiselect":false,"name":"cameraFollow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"O_Player","varType":5,},
   ],
   "resourceType":"GMObject",
