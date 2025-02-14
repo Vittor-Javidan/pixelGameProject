@@ -6,8 +6,11 @@ if (playerAttackWindowCounter >= playerAttackWindow) {
 }
 
 if (playerDistance > 30 and playerDistance < agroDistance) {
-	x += lengthdir_x(value_per_second(movementSpeed), playerDirection)
-	y += lengthdir_y(value_per_second(movementSpeed), playerDirection)
+	move_and_collide(
+		lengthdir_x(value_per_second(movementSpeed), playerDirection),
+		lengthdir_y(value_per_second(movementSpeed), playerDirection),
+		O_Invisible_Wall
+	)
 }
 
 if (canAttack and playerDistance < agroDistance) {

@@ -7,11 +7,17 @@ var playerDirection = point_direction(0, 0, horizontalInput, verticalInput)
 
 if (horizontalInput != 0 or verticalInput != 0) {
 	if (isDashing) {
-		x += lengthdir_x(value_per_second(dashSpeed), playerDirection)
-		y += lengthdir_y(value_per_second(dashSpeed), playerDirection)
+		move_and_collide(
+			lengthdir_x(value_per_second(dashSpeed), playerDirection),
+			lengthdir_y(value_per_second(dashSpeed), playerDirection),
+			O_Invisible_Wall
+		)
 	} else {
-		x += lengthdir_x(value_per_second(movementSpeed), playerDirection)
-		y += lengthdir_y(value_per_second(movementSpeed), playerDirection)
+		move_and_collide(
+			lengthdir_x(value_per_second(movementSpeed), playerDirection),
+			lengthdir_y(value_per_second(movementSpeed), playerDirection),
+			O_Invisible_Wall
+		)
 	}
 
 }
