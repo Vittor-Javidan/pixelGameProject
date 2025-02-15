@@ -8,6 +8,7 @@ if (isShooting and canAttack) {
 	bulletInstance.projectileDirection = aimDirection
 	bulletInstance.image_angle = aimDirection
 	time_source_start(time_source_attack_cooldown)
+	audio_play_sound(Sound_Ha, 0, false, 1, 0, random_range(0.9,1.1))
 	canAttack = false
 }
 
