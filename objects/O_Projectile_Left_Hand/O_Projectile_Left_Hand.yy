@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_Left_Hand_Projectile",
+  "%Name":"O_Projectile_Left_Hand",
   "eventList":[],
   "managed":true,
-  "name":"O_Left_Hand_Projectile",
+  "name":"O_Projectile_Left_Hand",
   "overriddenProperties":[],
   "parent":{
     "name":"Projectiles",
     "path":"folders/Objects/Projectiles.yy",
   },
   "parentObjectId":{
-    "name":"O_Right_Hand_Projectile",
-    "path":"objects/O_Right_Hand_Projectile/O_Right_Hand_Projectile.yy",
+    "name":"O_Projectile_Right_Hand",
+    "path":"objects/O_Projectile_Right_Hand/O_Projectile_Right_Hand.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

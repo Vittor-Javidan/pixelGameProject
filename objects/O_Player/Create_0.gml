@@ -6,7 +6,7 @@ movementSpeed = 480
 
 #region GearLoading
 
-instance_create_depth(x, y, self.depth - 1, O_Hand)
+instance_create_depth(x, y, self.depth - 1, O_Weapon_Hand)
 
 #endregion
 

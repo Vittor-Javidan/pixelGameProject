@@ -6,12 +6,12 @@ isShooting = mouse_check_button(mb_left)
 if (isShooting and canAttack) {
 	var handSideOffset = irandom_range(0,30)
 	if (handSideSwap) {
-		var bulletInstance = instance_create_depth(x, y, depth, O_Right_Hand_Projectile)
+		var bulletInstance = instance_create_depth(x, y, depth, O_Projectile_Right_Hand)
 		bulletInstance.projectileDirection = aimDirection - handSideOffset
 		bulletInstance.image_angle = aimDirection
 		handSideSwap = false
 	} else {
-		var bulletInstance = instance_create_depth(x, y, depth, O_Left_Hand_Projectile)
+		var bulletInstance = instance_create_depth(x, y, depth, O_Projectile_Left_Hand)
 		bulletInstance.projectileDirection = aimDirection + handSideOffset
 		bulletInstance.image_angle = aimDirection
 		handSideSwap = true
