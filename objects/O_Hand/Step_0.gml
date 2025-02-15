@@ -4,9 +4,18 @@ y = player.y
 aimDirection = point_direction(x, y, mouse_x, mouse_y)
 isShooting = mouse_check_button(mb_left)
 if (isShooting and canAttack) {
-	var bulletInstance = instance_create_depth(x, y, depth, O_Hand_Projectile)
-	bulletInstance.projectileDirection = aimDirection
-	bulletInstance.image_angle = aimDirection
+	var handSideOffset = irandom_range(0,30)
+	if (handSideSwap) {
+		var bulletInstance = instance_create_depth(x, y, depth, O_Right_Hand_Projectile)
+		bulletInstance.projectileDirection = aimDirection - handSideOffset
+		bulletInstance.image_angle = aimDirection
+		handSideSwap = false
+	} else {
+		var bulletInstance = instance_create_depth(x, y, depth, O_Left_Hand_Projectile)
+		bulletInstance.projectileDirection = aimDirection + handSideOffset
+		bulletInstance.image_angle = aimDirection
+		handSideSwap = true
+	}
 	time_source_start(time_source_attack_cooldown)
 	audio_play_sound(Sound_Ha, 0, false, 1, 0, random_range(0.9,1.1))
 	canAttack = false

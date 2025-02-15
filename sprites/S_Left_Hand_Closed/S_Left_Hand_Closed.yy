@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
-  "%Name":"S_Hand_Closed",
+  "%Name":"S_Left_Hand_Closed",
   "bboxMode":0,
-  "bbox_bottom":49,
+  "bbox_bottom":52,
   "bbox_left":12,
   "bbox_right":52,
-  "bbox_top":17,
+  "bbox_top":20,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -19,9 +19,9 @@
   "height":69,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"cd1b84c5-c372-4c76-9c5b-ae9c8a019ff0","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"cd1b84c5-c372-4c76-9c5b-ae9c8a019ff0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"302850d5-e7a1-472e-a28d-15ca23085211","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"302850d5-e7a1-472e-a28d-15ca23085211","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"S_Hand_Closed",
+  "name":"S_Left_Hand_Closed",
   "nineSlice":null,
   "origin":9,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"S_Hand_Closed",
+    "%Name":"S_Left_Hand_Closed",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"S_Hand_Closed",
+    "name":"S_Left_Hand_Closed",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5167c091-f3f4-4c24-b4c7-500c2ec84e37","path":"sprites/S_Hand_Closed/S_Hand_Closed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5167c091-f3f4-4c24-b4c7-500c2ec84e37","path":"sprites/S_Left_Hand_Closed/S_Left_Hand_Closed.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"6ea1e981-9e8f-4351-98ef-0af497ede5e1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
