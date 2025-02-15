@@ -5,7 +5,7 @@ aimDirection = point_direction(x, y, mouse_x, mouse_y)
 isShooting = mouse_check_button(mb_left)
 if (isShooting and canAttack) {
 	var handSideOffset = irandom_range(0,30)												// Random Precision
-	var bulletInstance = instance_create_depth(x, y, depth, O_Projectile_Right_Hand)		// Projectile Instance
+	var bulletInstance = instance_create_depth(x, y, depth, O_Projectile_Hand)				// Projectile Instance
 	bulletInstance.sprite_index = handSideSwap ? S_Right_Hand_Closed : S_Left_Hand_Closed	// Projectile sprite swap
 	bulletInstance.image_angle = aimDirection												// Sprite direction
 	bulletInstance.projectileDirection = handSideSwap 

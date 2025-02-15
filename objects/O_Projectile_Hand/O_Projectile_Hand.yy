@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_Projectile_Right_Hand",
+  "%Name":"O_Projectile_Hand",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Enemie","path":"objects/O_Enemie/O_Enemie.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Projectile_Right_Hand",
+  "name":"O_Projectile_Hand",
   "overriddenProperties":[],
   "parent":{
     "name":"Projectiles",
