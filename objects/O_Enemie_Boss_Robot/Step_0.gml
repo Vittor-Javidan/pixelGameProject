@@ -14,7 +14,7 @@ movementTypeCount += value_per_second(1)
 if (movementTypeCount >= movementTypeCountLimit) {
 	movementType = irandom_range(0, 2)
 	movementTypeCount = 0
-	movementTypeCountLimit = random_range(0, 2)
+	movementTypeCountLimit = random_range(0, 3)
 }
 
 if (playerDistance > 500 and playerDistance < agroDistance) {

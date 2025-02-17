@@ -2,7 +2,7 @@ event_inherited()
 
 #region Enemie Stats
 
-agroDistance = 0
+agroDistance = 2000
 hitAlpha = 0
 hitColor = c_red
 player = O_Player
