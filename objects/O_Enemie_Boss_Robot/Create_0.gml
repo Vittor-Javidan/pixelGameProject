@@ -1,7 +1,12 @@
+event_inherited()
+
 #region Boss Stats
 
 movementSpeed = 100
 agroDistance = 400
+movementType = 0
+movementTypeCount = 0
+movementTypeCountLimit = 3
 
 #endregion
 #region Boss attacks cooldown
