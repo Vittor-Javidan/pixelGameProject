@@ -1,5 +1,5 @@
-x = player.x
-y = player.y
+x = O_Player.x
+y = O_Player.y
 
 aimDirection = point_direction(x, y, mouse_x, mouse_y)
 isShooting = mouse_check_button(mb_left)
@@ -13,8 +13,8 @@ if (isShooting and canAttack) {
 		: aimDirection + handSideOffset														// Projectile left hand direction
 	handSideSwap = !handSideSwap															// projectile swap
 	canAttack = false																		// Attack disable
-	time_source_start(time_source_attack_cooldown)											// Start attack cooldown	
+	time_source_start(time_source_attack)													// Start attack cooldown	
 	audio_play_sound(Sound_Ha, 0, false, 1, 0, random_range(0.9,1.1))						// Attack Sound
 }
 
-depth = player.depth - 10
+depth = O_Player.depth - 10

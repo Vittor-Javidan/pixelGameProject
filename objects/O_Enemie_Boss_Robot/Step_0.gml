@@ -25,7 +25,7 @@ if (playerDistance > 500 and playerDistance < agroDistance) {
 	)
 } else if (playerDistance < agroDistance) {
 	switch (movementType) {
-		case 0: {
+		case 0: { // CHASE PLAYER
 				move_and_collide(
 					lengthdir_x(value_per_second(movementSpeed), playerDirection),
 					lengthdir_y(value_per_second(movementSpeed), playerDirection),
@@ -33,7 +33,7 @@ if (playerDistance > 500 and playerDistance < agroDistance) {
 				)
 				break
 		}
-		case 1: {
+		case 1: { // FLANK PLAYER COUNTER CLOCK WISE
 				move_and_collide(
 					lengthdir_x(value_per_second(movementSpeed), playerDirection -90),
 					lengthdir_y(value_per_second(movementSpeed), playerDirection -90),
@@ -41,7 +41,7 @@ if (playerDistance > 500 and playerDistance < agroDistance) {
 				)
 				break
 		}
-		case 2: {
+		case 2: { // FLANK PLAYER CLOCK WISE
 				move_and_collide(
 					lengthdir_x(value_per_second(movementSpeed), playerDirection +90),
 					lengthdir_y(value_per_second(movementSpeed), playerDirection +90),
@@ -56,8 +56,8 @@ if (playerDistance > 500 and playerDistance < agroDistance) {
 #region Attacks
 
 if (canAttack and playerDistance < agroDistance) {
-	var randomAttack = random_range(0, 100)
-	if (randomAttack <= 100) { buff_Move_Speed() }
+	var randomAction = random_range(0, 100)
+	if (randomAction <= 100) { buff_Move_Speed() }
 }
 
 #endregion

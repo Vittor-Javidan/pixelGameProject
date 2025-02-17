@@ -1,1 +1,1 @@
-time_source_destroy(time_source_attack_cooldown)
+time_source_destroy(time_source_attack)

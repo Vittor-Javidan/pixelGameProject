@@ -1,0 +1,1 @@
+other.hitAlpha = 1
