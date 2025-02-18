@@ -10,7 +10,9 @@
   ],
   "managed":true,
   "name":"O_Player",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Abstract_Entity","path":"objects/O_Abstract_Entity/O_Abstract_Entity.yy",},"propertyId":{"name":"movementSpeed","path":"objects/O_Abstract_Entity/O_Abstract_Entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"480",},
+  ],
   "parent":{
     "name":"Entities",
     "path":"folders/Objects/Entities.yy",

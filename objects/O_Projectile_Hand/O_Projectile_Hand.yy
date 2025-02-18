@@ -9,11 +9,12 @@
   "managed":true,
   "name":"O_Projectile_Hand",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Abstract_Projectile","path":"objects/O_Abstract_Projectile/O_Abstract_Projectile.yy",},"propertyId":{"name":"maxDistance","path":"objects/O_Abstract_Projectile/O_Abstract_Projectile.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Abstract_Projectile","path":"objects/O_Abstract_Projectile/O_Abstract_Projectile.yy",},"propertyId":{"name":"maxDistance","path":"objects/O_Abstract_Projectile/O_Abstract_Projectile.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Abstract_Projectile","path":"objects/O_Abstract_Projectile/O_Abstract_Projectile.yy",},"propertyId":{"name":"projectileSpeed","path":"objects/O_Abstract_Projectile/O_Abstract_Projectile.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"400",},
   ],
   "parent":{
-    "name":"O_Weapon_Hand",
-    "path":"folders/Objects/Projectiles/O_Weapon_Hand.yy",
+    "name":"Weapons Projectiles",
+    "path":"folders/Objects/Projectiles/Weapons Projectiles.yy",
   },
   "parentObjectId":{
     "name":"O_Abstract_Projectile",

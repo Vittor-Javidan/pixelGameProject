@@ -1,1 +1,5 @@
-time_source_destroy(time_source_buff_Move_Speed)
+time_source_destroy(time_source_end_buff_Move_Speed)
+time_source_destroy(time_source_start_attack_laser_1)
+time_source_destroy(time_source_start_attack_laser_2)
+time_source_destroy(time_source_start_attack_laser_3)
+time_source_destroy(time_source_start_attack_5_lasers)
