@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"O_Projectile_Boss_Robot_Tracking_Laser",
+  "%Name":"O_Enemie_Boss_Robot_Tracking_Laser",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,11 +9,11 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Projectile_Boss_Robot_Tracking_Laser",
+  "name":"O_Enemie_Boss_Robot_Tracking_Laser",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies Projectiles",
-    "path":"folders/Objects/Projectiles/Enemies Projectiles.yy",
+    "name":"O_Enemie_Boss_Robot",
+    "path":"folders/Objects/Entities/O_Enemie_Boss_Robot.yy",
   },
   "parentObjectId":{
     "name":"O_Abstract_Projectile",
@@ -40,7 +40,7 @@
     {"$GMObjectProperty":"v1","%Name":"playerLastPositionX","filters":[],"listItems":[],"multiselect":false,"name":"playerLastPositionX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"playerLastPositionY","filters":[],"listItems":[],"multiselect":false,"name":"playerLastPositionY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"trackingLineWidth","filters":[],"listItems":[],"multiselect":false,"name":"trackingLineWidth","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"timeActive","filters":[],"listItems":[],"multiselect":false,"name":"timeActive","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"expirationTime","filters":[],"listItems":[],"multiselect":false,"name":"expirationTime","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"isLaserSoundActive","filters":[],"listItems":[],"multiselect":false,"name":"isLaserSoundActive","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",

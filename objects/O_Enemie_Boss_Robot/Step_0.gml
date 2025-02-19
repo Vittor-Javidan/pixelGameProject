@@ -65,6 +65,7 @@ if (canAttack and playerDistance < agroDistance) {
 	if		(randomAction <= 40)	{ attack_laser()			 }
 	else if (randomAction <= 60)	{ attack_laser_3_times()	 }
 	else if (randomAction <= 80)	{ attack_laser_5_same_time() }
+	else if (randomAction <= 90)	{ attack_fieldOfFire()		 }
 	else if (randomAction <= 100)	{ buff_Move_Speed()			 }
 }
 
