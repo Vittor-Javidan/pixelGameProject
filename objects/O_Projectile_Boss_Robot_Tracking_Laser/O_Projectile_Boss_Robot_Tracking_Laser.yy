@@ -47,8 +47,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Laser",
-    "path":"sprites/S_Laser/S_Laser.yy",
+    "name":"S_Enemie_Boss_Robot_Laser",
+    "path":"sprites/S_Enemie_Boss_Robot_Laser/S_Enemie_Boss_Robot_Laser.yy",
   },
   "spriteMaskId":null,
   "visible":true,

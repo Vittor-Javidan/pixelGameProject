@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"S_Laser",
+  "%Name":"S_Enemie_Boss_Robot_Laser",
   "bboxMode":0,
   "bbox_bottom":31,
   "bbox_left":0,
@@ -29,19 +29,19 @@
     {"$GMImageLayer":"","%Name":"7aa690d4-3961-4762-bc63-86ec12780e6f","blendMode":0,"displayName":"Red Effect 1","isLocked":true,"name":"7aa690d4-3961-4762-bc63-86ec12780e6f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"7fd02aec-4ff6-4ac2-bb1f-ecf8c86a2090","blendMode":0,"displayName":"default","isLocked":true,"name":"7fd02aec-4ff6-4ac2-bb1f-ecf8c86a2090","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"S_Laser",
+  "name":"S_Enemie_Boss_Robot_Laser",
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"S_Enemie_Boss_Robot",
+    "path":"folders/Sprites/S_Enemie_Boss_Robot.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"S_Laser",
+    "%Name":"S_Enemie_Boss_Robot_Laser",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -65,7 +65,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"S_Laser",
+    "name":"S_Enemie_Boss_Robot_Laser",
     "playback":1,
     "playbackSpeed":10.0,
     "playbackSpeedType":0,
@@ -77,22 +77,22 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05d13d2f-276b-4b52-a591-5fb37dbb816c","path":"sprites/S_Laser/S_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05d13d2f-276b-4b52-a591-5fb37dbb816c","path":"sprites/S_Enemie_Boss_Robot_Laser/S_Enemie_Boss_Robot_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"53e05a3b-01d3-4600-89b2-09db95bca30f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d0d3015-8efa-4350-85db-8f6dc1cf0c59","path":"sprites/S_Laser/S_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d0d3015-8efa-4350-85db-8f6dc1cf0c59","path":"sprites/S_Enemie_Boss_Robot_Laser/S_Enemie_Boss_Robot_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b9146c91-80b0-46ae-973a-eef517f98466","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"74468e21-7627-41ee-bdfb-606806a3c26e","path":"sprites/S_Laser/S_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"74468e21-7627-41ee-bdfb-606806a3c26e","path":"sprites/S_Enemie_Boss_Robot_Laser/S_Enemie_Boss_Robot_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f61d7b5d-12c4-484d-82b2-bd63cb6c4c60","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b82dcce-8588-4be6-bbf3-10052e1716d7","path":"sprites/S_Laser/S_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b82dcce-8588-4be6-bbf3-10052e1716d7","path":"sprites/S_Enemie_Boss_Robot_Laser/S_Enemie_Boss_Robot_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"46465af9-c3ad-43d3-b61b-698936686063","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50fc5230-2069-4b41-8efe-e75ce6fa316b","path":"sprites/S_Laser/S_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50fc5230-2069-4b41-8efe-e75ce6fa316b","path":"sprites/S_Enemie_Boss_Robot_Laser/S_Enemie_Boss_Robot_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"7a5f1a54-001a-467b-9eb8-b5c6cf0b6d36","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9bbb01ae-3161-430e-8919-6e9a95f75ba5","path":"sprites/S_Laser/S_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9bbb01ae-3161-430e-8919-6e9a95f75ba5","path":"sprites/S_Enemie_Boss_Robot_Laser/S_Enemie_Boss_Robot_Laser.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ab776b06-d2eb-4b03-9847-6b295fa485b7","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

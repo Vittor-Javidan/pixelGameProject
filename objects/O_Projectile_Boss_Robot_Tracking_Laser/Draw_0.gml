@@ -1,5 +1,5 @@
-var playerDirectionX = lengthdir_x(1100, point_direction(x, y, playerLastPositionX, playerLastPositionY))
-var playerDirectionY = lengthdir_y(1100, point_direction(x, y, playerLastPositionX, playerLastPositionY))
+var playerDirectionX = lengthdir_x(2880, point_direction(x, y, playerLastPositionX, playerLastPositionY))
+var playerDirectionY = lengthdir_y(2880, point_direction(x, y, playerLastPositionX, playerLastPositionY))
 if (isTracking) {
 	draw_set_alpha(0.5)
 	draw_line_width_color(

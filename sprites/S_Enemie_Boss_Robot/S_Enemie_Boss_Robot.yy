@@ -35,8 +35,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"S_Enemie_Boss_Robot",
+    "path":"folders/Sprites/S_Enemie_Boss_Robot.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
