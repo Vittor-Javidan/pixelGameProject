@@ -1,6 +1,6 @@
 //Player tracking
-trackingCount += value_per_second(1)
-trackingLineWidth += value_per_second(self.sprite_height/trackingCountMax)
+trackingCount += valuePerSecond(1)
+trackingLineWidth += valuePerSecond(self.sprite_height/trackingCountMax)
 if (trackingCount >= trackingCountMax and isTracking) {
 	isTracking = false
 	time_source_start(time_source_time_active)

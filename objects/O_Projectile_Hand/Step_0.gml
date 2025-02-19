@@ -1,6 +1,6 @@
-x += lengthdir_x(value_per_second(projectileSpeed), projectileDirection)
-y += lengthdir_y(value_per_second(projectileSpeed), projectileDirection)
-currentDistance += value_per_second(projectileSpeed)
+x += lengthdir_x(valuePerSecond(projectileSpeed), projectileDirection)
+y += lengthdir_y(valuePerSecond(projectileSpeed), projectileDirection)
+currentDistance += valuePerSecond(projectileSpeed)
 
 if (currentDistance > maxDistance) {
 	instance_destroy()

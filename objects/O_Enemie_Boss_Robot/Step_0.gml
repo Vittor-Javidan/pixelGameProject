@@ -2,12 +2,12 @@ event_inherited()
 
 #region Cooldown Clocks
 
-attackCooldownCounter += value_per_second(1)
+attackCooldownCounter += valuePerSecond(1)
 if (attackCooldownCounter >= attackCooldown) {
 	canAttack = true
 }
 
-movementCooldownCounter += value_per_second(1)
+movementCooldownCounter += valuePerSecond(1)
 if (movementCooldownCounter >= movementCooldown) {
 	canMove = true
 }
@@ -15,7 +15,7 @@ if (movementCooldownCounter >= movementCooldown) {
 #endregion
 #region Movement Logics
 
-movementTypeCounter += value_per_second(1)
+movementTypeCounter += valuePerSecond(1)
 if (movementTypeCounter >= movementTypeCounterLimit) {
 	movementType = irandom_range(0, 2)
 	movementTypeCounter = 0
@@ -24,32 +24,32 @@ if (movementTypeCounter >= movementTypeCounterLimit) {
 
 if (canMove and playerDistance > 500 and playerDistance < agroDistance) {
 	move_and_collide(
-		lengthdir_x(value_per_second(movementSpeed), playerDirection),
-		lengthdir_y(value_per_second(movementSpeed), playerDirection),
+		lengthdir_x(valuePerSecond(movementSpeed), playerDirection),
+		lengthdir_y(valuePerSecond(movementSpeed), playerDirection),
 		O_Invisible_Wall
 	)
 } else if (canMove and playerDistance < agroDistance) {
 	switch (movementType) {
 		case 0: { // CHASE PLAYER
 				move_and_collide(
-					lengthdir_x(value_per_second(movementSpeed), playerDirection),
-					lengthdir_y(value_per_second(movementSpeed), playerDirection),
+					lengthdir_x(valuePerSecond(movementSpeed), playerDirection),
+					lengthdir_y(valuePerSecond(movementSpeed), playerDirection),
 					O_Invisible_Wall
 				)
 				break
 		}
 		case 1: { // FLANK PLAYER COUNTER CLOCK WISE
 				move_and_collide(
-					lengthdir_x(value_per_second(movementSpeed), playerDirection -90),
-					lengthdir_y(value_per_second(movementSpeed), playerDirection -90),
+					lengthdir_x(valuePerSecond(movementSpeed), playerDirection -90),
+					lengthdir_y(valuePerSecond(movementSpeed), playerDirection -90),
 					O_Invisible_Wall
 				)
 				break
 		}
 		case 2: { // FLANK PLAYER CLOCK WISE
 				move_and_collide(
-					lengthdir_x(value_per_second(movementSpeed), playerDirection +90),
-					lengthdir_y(value_per_second(movementSpeed), playerDirection +90),
+					lengthdir_x(valuePerSecond(movementSpeed), playerDirection +90),
+					lengthdir_y(valuePerSecond(movementSpeed), playerDirection +90),
 					O_Invisible_Wall
 				)
 				break

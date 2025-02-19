@@ -8,14 +8,14 @@ var playerDirection = point_direction(0, 0, horizontalInput, verticalInput)
 if (horizontalInput != 0 or verticalInput != 0) {
 	if (isDashing) {
 		move_and_collide(
-			lengthdir_x(value_per_second(dashSpeed), playerDirection),
-			lengthdir_y(value_per_second(dashSpeed), playerDirection),
+			lengthdir_x(valuePerSecond(dashSpeed), playerDirection),
+			lengthdir_y(valuePerSecond(dashSpeed), playerDirection),
 			O_Invisible_Wall
 		)
 	} else {
 		move_and_collide(
-			lengthdir_x(value_per_second(movementSpeed), playerDirection),
-			lengthdir_y(value_per_second(movementSpeed), playerDirection),
+			lengthdir_x(valuePerSecond(movementSpeed), playerDirection),
+			lengthdir_y(valuePerSecond(movementSpeed), playerDirection),
 			O_Invisible_Wall
 		)
 	}
@@ -23,5 +23,5 @@ if (horizontalInput != 0 or verticalInput != 0) {
 }
 
 if (stamina < maxStamina and !staminaDepleted) {
-	stamina += value_per_second(25)
+	stamina += valuePerSecond(25)
 }

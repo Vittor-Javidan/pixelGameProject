@@ -1,4 +1,4 @@
-durationCount += value_per_second(1)
+durationCount += valuePerSecond(1)
 if (durationCount >= duration) {
 	instance_destroy()
 }

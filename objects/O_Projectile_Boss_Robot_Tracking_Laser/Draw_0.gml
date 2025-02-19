@@ -5,8 +5,8 @@ if (isTracking) {
 	draw_line_width_color(
 		x,
 		y,
-		playerLastPositionX + playerDirectionX,
-		playerLastPositionY + playerDirectionY,
+		x + playerDirectionX,
+		y + playerDirectionY,
 		32,
 		c_red,
 		c_red
@@ -15,8 +15,8 @@ if (isTracking) {
 	draw_line_width_color(
 		x,
 		y,
-		playerLastPositionX + playerDirectionX,
-		playerLastPositionY + playerDirectionY,
+		x + playerDirectionX,
+		y + playerDirectionY,
 		trackingLineWidth,
 		c_red,
 		c_red
